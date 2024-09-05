@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Project Coordinates -->
+    <groupId>com.example</groupId>
+    <artifactId>minimal-java-app</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- Packaging Type (default is jar) -->
+    <packaging>jar</packaging>
+
+    <!-- Project Name and Description -->
+    <name>Minimal Java App</name>
+    <description>A minimal Java application with no unit tests.</description>
+
+    <!-- Source and target version of the compiler -->
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <!-- Build section (optional, since this is minimal) -->
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <outputDirectory>bin</outputDirectory>
+    </build>
+
+</project>
